@@ -2,7 +2,7 @@
 # platform :ios, ‘8.0’
 use_frameworks!
 
-target ‘iOS Example’ do
-pod ‘Alamofire’
+target 'iOS Example' do
+pod 'Alamofire'
 end
 
