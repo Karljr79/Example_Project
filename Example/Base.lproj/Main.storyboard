@@ -397,10 +397,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="250" height="40"/>
+        <image name="Logo" width="211" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ATO-2Y-gmc"/>
+        <segue reference="FoU-a6-nga"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="0.84313732385635376" green="0.25882354378700256" blue="0.11372549831867218" alpha="1" colorSpace="deviceRGB"/>
+    <color key="tintColor" red="0.57254904510000004" green="0.63137257099999999" blue="0.086274512110000007" alpha="1" colorSpace="calibratedRGB"/>
 </document>
