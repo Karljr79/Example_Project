@@ -71,14 +71,14 @@ class MasterViewController: UITableViewController {
                 case "PUT":
                     detailViewController.segueIdentifier = "PUT"
                     return Alamofire.request(.PUT, "https://httpbin.org/put")
-                case "DELETE":
-                    detailViewController.segueIdentifier = "DELETE"
-                    return Alamofire.request(.DELETE, "https://httpbin.org/delete")
+                case "ERROR":
+                    detailViewController.segueIdentifier = "ERROR"
+                    return Alamofire.request(.DELETE, "https://httpbin.org/status/500")
                 case "CRASH":
                     //ignore this warning.  This will cause the application to crash.
                     var crashDueToDictionary = Dictionary<Int,Int>()
                     let crashInt = crashDueToDictionary[1]!
-                    return Alamofire.request(.POST, "https://httpbin.org/post")
+                    return nil
                 case "DOWNLOAD":
                     detailViewController.segueIdentifier = "DOWNLOAD"
                     let destination = Alamofire.Request.suggestedDownloadDestination(
